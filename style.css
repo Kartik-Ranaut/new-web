@@ -87,18 +87,14 @@
     width:100vw;
     height: 100vh;
 
-    padding: 40px;
+    padding: 60px;
     padding-top: 0px;
     padding-bottom: 0px; 
     display: flex;
 
 }
-.slides{
-    width: 40%;
-    height:400px;
-}
 .word{
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -112,9 +108,9 @@
     font-weight: 540;
     font-size: 50px;
     line-height: 77px;
-
+    
     color: #140404;
-
+    
 }
 p{
     text-align:justify;
@@ -124,7 +120,30 @@ p{
 }
 .points{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    
     padding-left:2rem;
     font-size:1rem;
+}
+.imgcont{
+    display: flex;
+    flex-direction: column;
+}
+.imges{
+    
+    width:550px;
+    height:400px;
+}
+.imges label{
+    display: block;
+    width:550px;
+    height:400px;
+    background-color: red;
+    position: absolute;
+}
+.slides{
+    width: 50%;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
