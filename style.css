@@ -86,8 +86,7 @@
 .About{
     width:100vw;
     height: 100vh;
-
-    padding: 60px;
+    padding: 40px;
     padding-top: 0px;
     padding-bottom: 0px; 
     display: flex;
@@ -124,26 +123,30 @@ p{
     padding-left:2rem;
     font-size:1rem;
 }
-.imgcont{
-    display: flex;
-    flex-direction: column;
-}
-.imges{
-    
-    width:550px;
-    height:400px;
-}
-.imges label{
-    display: block;
-    width:550px;
-    height:400px;
-    background-color: red;
-    position: absolute;
-}
+
+
+
 .slides{
     width: 50%;
     height:fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.imges{
+    width: 500px;
+    height: 450px;
+    
+}
+
+.imges label{
+    display: block;
+    width:400px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+}
+
+.inpp:checked + label{
+    z-index: 10;
 }
