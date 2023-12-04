@@ -73,7 +73,7 @@
 }
 .slider{
     width: 300px;
-    height:300 px;
+    height:300px;
 }
 .info h1{
     width: fit-content;
@@ -102,10 +102,10 @@
     padding-top: 0px;
     padding-bottom: 0px; 
     display: flex;
-
+    flex-wrap: wrap;
 }
 .word{
-    width: 50%;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -146,7 +146,7 @@ p{
     align-items: center;
 }
 .imges{
-    width: 500px;
+    width: 450px;
     height: 450px;
     
 }
@@ -161,4 +161,10 @@ p{
 
 .inpp:checked + label{
     z-index: 10;
+}
+
+.slides button{
+    border: none;
+    font-size: 2rem;
+
 }
