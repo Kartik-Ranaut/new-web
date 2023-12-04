@@ -77,10 +77,24 @@
     margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .slider img{
-    width: 600px;
-   
+    width: 500px;
+    height: 650px;
+    animation-name: updown;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes updown {
+    from{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(10px);
+    }
 }
 .info h1{
     width: fit-content;
