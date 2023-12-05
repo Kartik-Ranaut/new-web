@@ -210,3 +210,16 @@ p{
 
 }
 
+.text h1 {
+    font-size: 1.3rem;
+}
+.text h3{
+    font-size: 1rem;
+}
+
+p{
+    line-height: 25px;
+}
+ul{
+    font-size: 1rem;
+}
