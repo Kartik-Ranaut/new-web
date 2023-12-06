@@ -186,17 +186,22 @@ p{
 }
 .imges{
     width: 400px;
-    background-color: gray;
     height: 450px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
+
 
 .imges label{
     display: block;
     width:400px;
     height: 400px;
-    background-color: red;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
     position: absolute;
+    
 }
 
 .inpp:checked + label{
