@@ -246,6 +246,19 @@ ul{
 }
 
 .relationship{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.relationship img{
+    width: 40%;
+    background-color: blue;
+}
+
+.drishti{
+    padding-top: 25px;
     display: flex;
     justify-content: space-between;
     padding-left: 60px;
