@@ -136,13 +136,13 @@
 }
 .About{
     width:100vw;
-    height: 100vh;
+    height: fit-content;
     padding: 40px;
     padding-top: 0px;
     padding-bottom: 0px; 
     display: flex;
     flex-wrap: wrap;
-
+    padding-bottom: 40px;
    
 }
 .word{
@@ -222,4 +222,32 @@ p{
 }
 ul{
     font-size: 1rem;
+}
+.conscious{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.text{
+    width:55%;
+    height: fit-content;
+    background-color: red;
+}
+.conscious img{
+    width: 40%;
+    background-color: blue;
+}
+.actvitiesHead{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.relationship{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
 }
