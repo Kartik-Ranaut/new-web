@@ -289,3 +289,16 @@ ul{
     border: 1px solid black;
     border-radius: 15px;
 }
+
+.sharamdann{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.sharamdann img{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
