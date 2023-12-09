@@ -183,9 +183,24 @@
             </div>
         </div>
         <div class="transformations">
-            
+            <div class="popupbox">
+                <div class="togglebutton"></div>
+            </div>
+            <div class="popupbox">
+                <div class="togglebutton"></div>
+            </div>
+            <div class="popupbox">
+                <div class="togglebutton"></div>
+            </div>
         </div>
     </div>
+    <script>
+        let popupbox = document.querySelector(".popupbox");
+        let togglebutton= document.querySelectorAll(".togglebutton");
+        togglebutton.addEventListener('click',()=>{
+            popupbox.classList.toggle('active');
+        })
+    </script>
     <script src="index.js"></script>
 </body>
 
