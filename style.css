@@ -331,4 +331,11 @@ ul{
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+    padding: 5px;
+    
+}
+
+.message{
+    width: 100%;
+    height: fit-content;
 }
